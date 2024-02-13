@@ -15,4 +15,4 @@ This file installs https://github.com/MScholtes/PSVirtualDesktop on your current
 ![resim](https://github.com/Kambaa/win10-workspace-switcher-on-taskbar/assets/5601326/3c078758-2ce9-4953-ab4a-109dde106ff2)
 
 ## Considerations
-It seems it is not that quick, so using CTRL + Win + LEFT/RIGHT Arrow is quicker, but i wanted use this feature the i used to. 
+It seems it is not that quick, so using CTRL + Win + LEFT/RIGHT Arrow is quicker, but i wanted use this feature the i way i'm used to. 
