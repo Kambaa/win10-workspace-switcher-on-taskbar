@@ -5,10 +5,14 @@ This file installs https://github.com/MScholtes/PSVirtualDesktop on your current
 
 ## Usage
 - Just download and put the `Win10SwitchDesktop.ps1` file on somewhere on your pc
-- Create some shortcuts like this: `pwsh.exe -windowstyle hidden -file "<YOUR_DIRECTORY>\Win10SwitchDesktop.ps1" -MonitorNumber 0` 0 for the first Virtual Desktop you have added, 1 for the second etc.
+- Create some shortcuts like this:
+  - `pwsh.exe -windowstyle hidden -file "<YOUR_DIRECTORY>\Win10SwitchDesktop.ps1" -MonitorNumber 0` or
+  - `powershell.exe -windowstyle hidden -file "<YOUR_DIRECTORY>\Win10SwitchDesktop.ps1" -MonitorNumber 0`
+0 at the end is the index of the virtual desktop, first Virtual Desktop you have added, 1 for the second etc.
 ![resim](https://github.com/Kambaa/win10-workspace-switcher-on-taskbar/assets/5601326/1dc6e047-87e0-4dc7-8adc-b5aa6f181b1d)
 - Run the shortcut and voila! you have switched to another Virtual Desktop if you have any.
 - You can hide the file(or move it somewhere else) and use that folder for a toolbar on your taskbar like this
 ![resim](https://github.com/Kambaa/win10-workspace-switcher-on-taskbar/assets/5601326/3c078758-2ce9-4953-ab4a-109dde106ff2)
 
-  
+## Considerations
+It seems it is not that quick, so using CTRL + Win + LEFT/RIGHT Arrow is quicker, but i wanted use this feature the i used to. 
